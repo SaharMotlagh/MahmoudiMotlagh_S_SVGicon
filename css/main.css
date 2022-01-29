@@ -30,6 +30,7 @@ Accessibility
     color: #1b1b1b;
     cursor: pointer;
     text-decoration: #1b1b1b;
+    margin-top: 16px;
 }
 body {
     background-color: rgb(209, 211, 211);
@@ -46,6 +47,16 @@ h2 {
     padding: 0em;
     color: #1b1b1b;
     border-bottom: 1px solid #0c0c0c;
+    display: flex;
+  }
+  
+  h3 {
+    margin-bottom: 20px;
+    padding: 0em;
+    color: #1b1b1b;
+    border-bottom: 1px solid #0c0c0c;
+    text-align: center;
+    font-size: 90px;
   }
 
   .hero-img img {
@@ -62,10 +73,29 @@ h2 {
 
 .container {
     display: flex;
+    margin-top: 100px;
+    margin-bottom: 70px;
 }
 
 .container img {
     width: 100%;
+}
+
+.container svg {
+  width: 100%;
+}
+
+.cls-1:hover {
+  fill: orange;
+  stroke: #1b1b1b;
+  cursor: pointer;
+  transition: all ease 1.5s;
+}
+
+.cls-1 {
+  transition: opacity ease 0.5s;
+  cursor: pointer;
+  transition: all ease 1.5s;
 }
 
 
