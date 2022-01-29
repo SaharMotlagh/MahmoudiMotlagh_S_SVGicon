@@ -1,0 +1,72 @@
+/*
+Style Name: HTML Atributes & Forms 
+Description: Class File
+Author: Sahar MamoudiMotlagh 
+Version: 1.0
+Tags: Learning HTML
+*/
+
+/* -------------
+  Fonts
+-------------- */
+
+/* ------------ */
+
+/* -------------
+  Plugins
+-------------*/
+
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+
+/* Text meant only for screen readers */
+
+.hidden {
+    display: none;
+}
+
+.main-heading {
+    color: #1b1b1b;
+    cursor: pointer;
+    text-decoration: #1b1b1b;
+}
+body {
+    background-color: rgb(209, 211, 211);
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    /*color: #fff;*/
+  }
+  
+h2 {
+    margin: 0px auto;
+    padding: 0em;
+    color: #1b1b1b;
+    border-bottom: 1px solid #0c0c0c;
+  }
+
+  .hero-img img {
+    width: 100%;
+  }
+
+
+#svg-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    width: 100%;
+}
+
+
+
