@@ -1,8 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="52.23" height="47.44" viewBox="0 0 52.23 47.44">
+<svg id="music" xmlns="http://www.w3.org/2000/svg" width="52.23" height="47.44" viewBox="0 0 52.23 47.44">
   <defs>
     <style>
+    #music:hover {
+      cursor: pointer;
+    }
       .cls-1 {
-        fill: #fff;
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+        transition: all ease 1.5s;
       }
     </style>
   </defs>

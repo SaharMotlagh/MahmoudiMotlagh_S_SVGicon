@@ -2,12 +2,16 @@
 
   <defs>
     <style>
-  
+
+    #music:hover {
+      cursor: pointer;
+    }
       .cls-1 {
         fill: none;
         stroke: #fff;
         stroke-miterlimit: 10;
         stroke-width: 2px;
+        transition: all ease 1.5s;
       }
     </style>
   </defs>
